@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		680432EC239042C9007B54E5 /* FoodTruckScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680432EB239042C9007B54E5 /* FoodTruckScheduleTableViewController.swift */; };
+		680432EE239042F3007B54E5 /* FoodTruckSchedulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680432ED239042F3007B54E5 /* FoodTruckSchedulePresenter.swift */; };
+		680432F12390439E007B54E5 /* FoodTruckMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680432F02390439E007B54E5 /* FoodTruckMapViewController.swift */; };
+		680432F52390440D007B54E5 /* FoodTruckScheduleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680432F42390440D007B54E5 /* FoodTruckScheduleDataProvider.swift */; };
+		680432F7239052C6007B54E5 /* SocrataFoodTruckScheduleDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680432F6239052C6007B54E5 /* SocrataFoodTruckScheduleDataProvider.swift */; };
+		680432FB23906EDF007B54E5 /* FoodTruckScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680432FA23906EDE007B54E5 /* FoodTruckScheduleTableViewCell.swift */; };
+		680432FF2390A82C007B54E5 /* FoodTruckScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 680432FE2390A82C007B54E5 /* FoodTruckScheduleTableViewCell.xib */; };
 		68BD229623903A1A00290856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD229523903A1A00290856 /* AppDelegate.swift */; };
 		68BD229823903A1A00290856 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD229723903A1A00290856 /* SceneDelegate.swift */; };
-		68BD229A23903A1A00290856 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BD229923903A1A00290856 /* ViewController.swift */; };
 		68BD229D23903A1A00290856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BD229B23903A1A00290856 /* Main.storyboard */; };
 		68BD229F23903A1D00290856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BD229E23903A1D00290856 /* Assets.xcassets */; };
 		68BD22A223903A1D00290856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68BD22A023903A1D00290856 /* LaunchScreen.storyboard */; };
@@ -27,10 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		680432EB239042C9007B54E5 /* FoodTruckScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckScheduleTableViewController.swift; sourceTree = "<group>"; };
+		680432ED239042F3007B54E5 /* FoodTruckSchedulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckSchedulePresenter.swift; sourceTree = "<group>"; };
+		680432F02390439E007B54E5 /* FoodTruckMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckMapViewController.swift; sourceTree = "<group>"; };
+		680432F42390440D007B54E5 /* FoodTruckScheduleDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckScheduleDataProvider.swift; sourceTree = "<group>"; };
+		680432F6239052C6007B54E5 /* SocrataFoodTruckScheduleDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocrataFoodTruckScheduleDataProvider.swift; sourceTree = "<group>"; };
+		680432FA23906EDE007B54E5 /* FoodTruckScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		680432FE2390A82C007B54E5 /* FoodTruckScheduleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTruckScheduleTableViewCell.xib; sourceTree = "<group>"; };
 		68BD229223903A1A00290856 /* foodtruck-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "foodtruck-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BD229523903A1A00290856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68BD229723903A1A00290856 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		68BD229923903A1A00290856 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		68BD229C23903A1A00290856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68BD229E23903A1D00290856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68BD22A123903A1D00290856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +70,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		680432E823904219007B54E5 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				680432F42390440D007B54E5 /* FoodTruckScheduleDataProvider.swift */,
+				680432F6239052C6007B54E5 /* SocrataFoodTruckScheduleDataProvider.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		680432E92390425A007B54E5 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				680432ED239042F3007B54E5 /* FoodTruckSchedulePresenter.swift */,
+				680432EF23904382007B54E5 /* map */,
+				680432EA23904271007B54E5 /* schedule */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		680432EA23904271007B54E5 /* schedule */ = {
+			isa = PBXGroup;
+			children = (
+				680432FA23906EDE007B54E5 /* FoodTruckScheduleTableViewCell.swift */,
+				680432EB239042C9007B54E5 /* FoodTruckScheduleTableViewController.swift */,
+				680432FE2390A82C007B54E5 /* FoodTruckScheduleTableViewCell.xib */,
+			);
+			path = schedule;
+			sourceTree = "<group>";
+		};
+		680432EF23904382007B54E5 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				680432F02390439E007B54E5 /* FoodTruckMapViewController.swift */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
 		68BD228923903A1900290856 = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +128,10 @@
 		68BD229423903A1A00290856 /* foodtruck-ios */ = {
 			isa = PBXGroup;
 			children = (
+				680432E92390425A007B54E5 /* scenes */,
+				680432E823904219007B54E5 /* data */,
 				68BD229523903A1A00290856 /* AppDelegate.swift */,
 				68BD229723903A1A00290856 /* SceneDelegate.swift */,
-				68BD229923903A1A00290856 /* ViewController.swift */,
 				68BD229B23903A1A00290856 /* Main.storyboard */,
 				68BD229E23903A1D00290856 /* Assets.xcassets */,
 				68BD22A023903A1D00290856 /* LaunchScreen.storyboard */,
@@ -180,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680432FF2390A82C007B54E5 /* FoodTruckScheduleTableViewCell.xib in Resources */,
 				68BD22A223903A1D00290856 /* LaunchScreen.storyboard in Resources */,
 				68BD229F23903A1D00290856 /* Assets.xcassets in Resources */,
 				68BD229D23903A1A00290856 /* Main.storyboard in Resources */,
@@ -200,8 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68BD229A23903A1A00290856 /* ViewController.swift in Sources */,
 				68BD229623903A1A00290856 /* AppDelegate.swift in Sources */,
+				680432F12390439E007B54E5 /* FoodTruckMapViewController.swift in Sources */,
+				680432FB23906EDF007B54E5 /* FoodTruckScheduleTableViewCell.swift in Sources */,
+				680432F7239052C6007B54E5 /* SocrataFoodTruckScheduleDataProvider.swift in Sources */,
+				680432F52390440D007B54E5 /* FoodTruckScheduleDataProvider.swift in Sources */,
+				680432EE239042F3007B54E5 /* FoodTruckSchedulePresenter.swift in Sources */,
+				680432EC239042C9007B54E5 /* FoodTruckScheduleTableViewController.swift in Sources */,
 				68BD229823903A1A00290856 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
