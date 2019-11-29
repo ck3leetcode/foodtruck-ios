@@ -51,7 +51,8 @@ class FoodTruckSchedulePresenter {
                             hours: "\(s.starttime) - \(s.endtime)",
                             location: s.location,
                             selected: false)
-                    }
+                    }.sorted { (vm1, vm2) in vm1.name < vm2.name }
+                    
                     strongSelf.presentingView?.update(viewModels: vms)
                 }
             }
