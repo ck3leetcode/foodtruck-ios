@@ -88,7 +88,7 @@ class SocrataFoodTruckScheduleDataProvider: FoodTruckScheduleDataProvider {
                 let schedules: [FoodTruckSchedule] =
                     responses.map { r in
                         FoodTruckSchedule(name: r.applicant,
-                                          address: r.locationdesc ?? "",
+                                          address: r.location,
                                           location: CLLocation(
                                             latitude: CLLocationDegrees(r.latitude) ?? 0.0,
                                             longitude: CLLocationDegrees(r.longitude) ?? 0.0),
